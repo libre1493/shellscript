@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 DT=`date '+%Y%m%d_%H%M%S'`
-echo $DT
+echo $DT ## 테스트
 function print_fnc {
 echo " "
 printf "================================================================\n"
