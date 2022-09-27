@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 DT=`date '+%Y%m%d_%H%M%S'`
-echo $DT ## 테스트
+
 function print_fnc {
 echo " "
 printf "================================================================\n"
@@ -62,6 +62,7 @@ then
 #    echo $1
 else
     echo "Usage: maria_mon.sh m or maria_mon.sh s"
+    echo "사용법: maria_mon.sh m or maria_mon.sh s"
     SRV='X'
 #    read -p "please input M(master) or S(salve): " SRV
 #    exit;
